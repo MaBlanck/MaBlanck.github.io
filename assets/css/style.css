@@ -1,0 +1,167 @@
+body {
+    background-color:#fdf0ec ;
+}
+.firstTitle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    letter-spacing: 0.05em;
+    font-size: 6.875rem;
+    
+}
+.skill-grid {
+    background-color: #98bec8;
+}
+.projects-grid {
+    background-color: #fdf0ec;
+}
+.resume-grid {
+    background-color: #3bab87;
+}
+.about-me-grid {
+    background-color:#224a54 ;
+}
+h2 {
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-size: 50px;
+}
+h3 {
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-size: 30px; 
+}
+h4 {
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-size: 20px; 
+}
+p,
+a {
+    font-family: 'Lora', serif;
+}
+i {
+    color: #000000;
+    font-size: 1rem;
+}
+.icon {
+    color: #98bec8;
+    opacity: 0.7;
+}
+.buttonCv {
+    background-color: #98bec8;
+    color: #000000;
+}
+.btn-card {
+    color: #3bab87;
+}
+.hrTitle {
+    margin: 0;
+    z-index: 1;
+    border: 3px solid #000000;
+}
+/* .paragraph {
+    background-color:#ac817a ;
+} */
+
+.vertical-nav {
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+}
+.page-content {
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+}
+#sidebar.active {
+    margin-left: -17rem;
+}
+
+#content.active {
+    width: 100%;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+    margin-left: -17rem;
+    }
+    #sidebar.active {
+    margin-left: 0;
+    }
+    #content {
+    width: 100%;
+    margin: 0;
+    }
+    #content.active {
+    margin-left: 17rem;
+    width: calc(100% - 17rem);
+    }
+}
+
+.separator {
+    margin: 3rem 0;
+    border-bottom: 1px dashed #fff;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #21866f;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 100;
+}
+.dot-off {
+    height: 25px;
+    width: 25px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+}
+/*Parallax effect*/
+.parallax {
+    /* The image used */
+    background-color: #fefbf5;
+    min-height: 31.25rem; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaxResume {
+    background-image: url("../img/Canada2.jpg");
+    min-height: 12.5rem; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaxAbout {
+    background-image: url("../img/Canada3.jpg");
+    min-height: 12.5rem; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaxForm {
+    background-image: url("../img/Canada4.jpg");
+    min-height: 12.5rem; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+    background-attachment: scroll;
+    }
+}
