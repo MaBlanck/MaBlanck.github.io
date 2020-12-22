@@ -8,58 +8,12 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
     <script src="https://kit.fontawesome.com/67ec23bc55.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Lora:400italic' rel='stylesheet' type='text/css'>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Max Blanck</title>
 </head>
 
 <body>
-    <!-- Vertical navbar -->
-    <div class="vertical-nav bg-white" id="sidebar">
-        <div class="py-4 px-3 mb-4 bg-light">
-            <div class="media d-flex align-items-center"><img
-                    src="https://s1.qwant.com/thumbr/0x0/1/9/4b4f0c087c1baf13d24a3cce3fd9b3a664498a9ec4364f990f8fc2b81ade91/Marty_McFly.jpg?u=http%3A%2F%2Fstatic2.wikia.nocookie.net%2F__cb20131230195541%2Fbttf%2Fimages%2F5%2F53%2FMarty_McFly.jpg&q=0&b=1&p=0&a=1"
-                    alt="photo de profil" width="65" class="mr-3 rounded-circle img-thumbnail shadow-sm">
-                <div class="media-body">
-                    <h4 class="m-0">Max Blanck</h4>
-                    <p class="font-weight-light text-muted mb-0">Web developer</p>
-                </div>
-            </div>
-        </div>
-
-        <p class="text-gray font-weight-bold text-uppercase px-3 small pb-4 mb-0">Main</p>
-
-        <ul class="nav flex-column bg-white mb-0">
-            <li class="nav-item">
-                <a href="#skills" class="nav-link text-dark font-italic">
-                    Compétences
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="#projects" class="nav-link text-dark font-italic">
-                    Projets
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="#resume" class="nav-link text-dark font-italic">
-                    Formation
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="#aboutme" class="nav-link text-dark font-italic">
-                    A propos
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="#form" class="nav-link text-dark font-italic">
-                    Contact
-                </a>
-            </li>
-        </ul>
-    </div>
     <div class="page-content p-3" id="content">
         <div class="container-fluid parallax">
             <div class="d-flex flex-wrap" style="height:200px">
@@ -74,28 +28,22 @@
                     </h1>
                     <h2>
                         <div class="row justify-content-end">
-                            <span class="col-lg-6 col-md-6 col-sm-6 text-center pt-5">Développeur web</span>
+                            <span class="col-lg-6 col-md-6 col-sm-6 text-center pt-5">Développeur <span
+                                    class="verticalLine">|</span>web</span>
                         </div>
                     </h2>
                 </div>
             </div>
         </div>
-        <!-- Menu button -->
-        <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i
-                class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold">Menu</small></button>
         <section id="skills">
-
             <div class="container-fluid skill-grid">
                 <div class="row">
                     <div class="col-md-4 mb-5 mt-5">
-                        <h2>Compétences</h2>
-                    </div>
-                    <div class="col-md-4 align-self-center">
-                        <hr>
+                        <h2>Compétences<span class="verticalLine">|</span></h2>
                     </div>
                 </div>
                 <div class="row ">
-                    <div class="col-12 text-center">
+                    <div class="col-12  my-5 text-center">
                         <h4>FRONT-END</h4>
                     </div>
                 </div>
@@ -126,7 +74,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 text-center">
+                    <div class="col-12 my-5 text-center">
                         <h4>BACK-END</h4>
                     </div>
                 </div>
@@ -144,27 +92,16 @@
                                 class="dot-off"></span><span class="dot-off"></span></p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12 text-center">
+                <div class="row my-5">
+                    <div class="col-12 col-md-6 text-center">
                         <h4>Versionning</h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 mt-3 mb-3 git reveal text-center">
-                        <i class="fab fa-git fa-3x"></i>
-                        <p>&</p><i class="fab fa-github fa-3x"></i>
+                        <i class="fab fa-git fa-3x mt-2"></i>
                         <p>GitHub</p>
                         <p><span class="dot"></span><span class="dot"></span><span class="dot"></span><span
                                 class="dot-off"></span><span class="dot-off"></span></p>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 text-center">
+                    <div class="col-12 col-md-6 text-center">
                         <h4>Environnement de développement</h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 text-center">
                         <p>Visual Studio Code</p>
                         <p><span class="dot"></span><span class="dot"></span><span class="dot"></span><span
                                 class="dot"></span><span class="dot-off"></span></p>
@@ -178,33 +115,39 @@
             <div class="container-fluid text-center projects-grid">
                 <div class="row">
                     <div class="col-md-4 mb-5 mt-5">
-                        <h2>Projects</h2>
-                    </div>
-                    <div class="col-md-4 align-self-center">
-                        <hr>
+                        <h2>Projects<span class="verticalLine">|</span></h2>
                     </div>
                 </div>
                 <div class="row mb-3">
-                    <div class="col-md-6 col-lg-6">
-                        <div class="card bg-transparent h-100">
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="card bg-transparent h-100 img-flui">
                             <img src="./assets/img/sailfelicia.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Sail Felicia</h5>
                                 <p class="card-text">Projet titre professionnel</p>
-                                <a href="http://arnaudblk.com/felicia/" target="_blank" class="btn-card">
+                                <a href="http://arnaudblk.com/felicia/" target="_blank" class="btn btn-success">
                                     En savoir +
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6">
-                        <div class="card bg-transparent h-100">
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="card bg-transparent h-100 img-fluid">
                             <img src="./assets/img/Luthier.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Harpye Lutherie</h5>
-                                <p class="card-text">Fabricant de guitares
-                                </p>
-                                <a href="#" class="btn-card">En savoir +</a>
+                                <p class="card-text">Fabricant de guitares</p>
+                                <a href="#" class="btn btn-success">En savoir +</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="card bg-transparent h-100 img-fluid">
+                            <img src="./assets/img/calendar.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Calendrier interactif</h5>
+                                <p class="card-text">Réalisé en PHP</p>
+                                <a href="https://github.com/MaBlanck/calendar" class="btn btn-success">CaLeNdRiEr</a></button>
                             </div>
                         </div>
                     </div>
@@ -213,17 +156,14 @@
         </section>
 
         <section id="resume">
-            <div class="container-fluid resume-grid" style="height: 600px;">
+            <div class="container-fluid resume-grid">
                 <div class="row">
                     <div class="col-md-4 mb-5 mt-5">
-                        <h2 class="training">Formations</h2>
-                    </div>
-                    <div class="col-md-4 align-self-center">
-                        <hr>
+                        <h2 class="training">Formations<span class="verticalLine">|</span></h2>
                     </div>
                 </div>
-                <div class="row justify-content-start">
-                    <div class="col-md-6 text-center bg-light rounded" style="height: 150px;">
+                <div class="row justify-content-start px-3">
+                    <div class="col-12 col-md-6 text-center rounded">
                         <h4>Formation La Manu</h4>
                         <p>La formation prépare au Titre Professionnel <strong>« Développeur web et web mobile
                                 »</strong> RNCP 31114
@@ -231,9 +171,7 @@
                             délivré par le Ministère du Travail.</p>
                         <p>2020</p>
                     </div>
-                </div>
-                <div class="row justify-content-end">
-                    <div class="col-md-6 text-center bg-light rounded" style="height: 150px;">
+                    <div class="col-12 col-md-6 text-center rounded">
                         <h4>CAP</h4>
                         <p>CAP Charpentier bois.</p>
                         <p>Compagnons du devoir</p>
@@ -249,10 +187,7 @@
             <div class="container-fluid about-me-grid text-center text-white">
                 <div class="row">
                     <div class="col-md-4 mb-5 mt-5">
-                        <h2>A propos</h2>
-                    </div>
-                    <div class="col-md-4 align-self-center">
-                        <hr>
+                        <h2>A propos<span class="verticalLine">|</span></h2>
                     </div>
                     <div class="col-12">
                         <p class="paragraph rounded p-3">En reconversion professionnel. Chemin faisant, le web
@@ -268,18 +203,18 @@
                     <div class="col-12 text-center py-5">
                         <ul class="info-list">
                             <li><span class="title">Age : </span><span class="value">31</span></li>
-                            <li><span class="title">Residence: </span><span class="value">France</span></li>
-                            <li><span class="title">Address: </span><span class="value">Rue Ancel. 60200
+                            <li><span class="title">Residence : </span><span class="value">France</span></li>
+                            <li><span class="title">Address : </span><span class="value">Rue Ancel. 60200
                                     Compiègne</span>
                             </li>
-                            <li><span class="title">e-mail: </span><span class="value"><a
+                            <li><span class="title">e-mail : </span><span class="value"><a
                                         href="mailto:maxblanck@outlook.fr">maxblanck@outlook.fr</a></span></li>
-                            <li><span class="title">Phone: </span><span class="value">+33 6 89 67 28 86</span></li>
-                            <li><span class="title">LinkedIn: </span><span class="value"><a
+                            <li><span class="title">Phone : </span><span class="phone bg-success rounded p-2">+33 6 89 67 28 86</span></li>
+                            <li><span class="title">LinkedIn : </span><span class="value"><a
                                         href="https://www.linkedin.com/in/max-blanck-7647301b9/" target="_blank"
-                                        title="Aller vers LinkedIn"><i class="fab fa-linkedin"></i></a></span>
+                                        title="Aller vers LinkedIn"><i class="fab fa-linkedin fa-1x"></i></a></span>
                             </li>
-                            <li><span class="title">Freelance: </span><span class="value available">Available
+                            <li><span class="title">Freelance : </span><span class="value available">Available
                                     soon</span>
                             </li>
                         </ul>
@@ -289,8 +224,8 @@
                     <div class="col-sm-6 col-md-4 d-inline-block">
                         <h4>Développement Web</h4>
                         <p class="paragraph rounded p-3">Le développement web est le premier chemin que
-                            j'explore dans le vaste monde du développement informatique <br>
-                            Je suis très intéressé par d'autres langages, Python notamment. Mais chaque
+                            j'explore dans le vaste monde du développement informatique. <br>
+                            Je suis très intéressé par d'autres langages, Python notamment. <br> Mais chaque
                             chose en son temps. <br>
                             Javascript, php, MySql et les pionnier HTML et CSS sont mes meilleurs potes
                             aujourd'hui. <br>
@@ -313,7 +248,7 @@
                         <div class="col-12 h-100">
                             <h4>Créativité</h4>
                             <p class="paragraph rounded p-3">J'ai été musicien semi-professionnel, je n'ai
-                                pas peur du pinceau et la littérature m'aide a comprendre notre monde. <br>
+                                pas peur du pinceau et la littérature m'aide à comprendre notre monde. <br>
                                 Les arts sont un ensemble dans lequel je me sens bien. Une fibre artistique qui
                                 m'est indispensable dans la vie de tous les jours. <br>
                                 Le Beau, l'ergonomie, cela m'importe.
@@ -323,7 +258,7 @@
                 </div>
                 <div class="row justify-content-center pt-5">
                     <div class="col-12 text-center">
-                        <h3>Hobbies</h3>
+                        <h4>Hobbies</h4>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-1 p-5 music reveal"><a
                             href="https://soundcloud.com/maxblanckonemanband" title="Do You want some Blues?"
@@ -350,7 +285,7 @@
                 </div>
                 <div class="row">
                     <div class="col text-center p-3">
-                        <h3>Infos Fun</h3>
+                        <h4>Infos Fun</h4>
                     </div>
                 </div>
                 <div class="row">
@@ -379,7 +314,7 @@
                     </div>
                 </div>
                 <div class="download-cv-block col-sm-12 col-md-12 text-center mb-5 mt-5">
-                    <button type="button" class="btn"><a class="buttonCv" target="_blank"
+                    <a class="btn btn-success" target="_blank"
                             href="./assets/img/Cv-WebDeveloppeur.png">Télécharger CV</a></button>
 
                 </div>
@@ -387,11 +322,11 @@
         </section>
         <div class="container-fluid parallaxForm"></div>
         <section id="form">
-            <div class="container-fluid">
+            <div class="container-fluid contact">
                 <div class="col-12">
                     <div class="row">
                         <div class="col-md-4 mb-5 mt-5">
-                            <h2>Restons en contact</h2>
+                            <h2>Restons en contact<span class="verticalLine">|</span></h2>
                         </div>
                         <div class="col-md-4 align-self-center">
                             <hr>
@@ -399,14 +334,14 @@
                     </div>
                     <div class="controls">
                         <div class="form-group">
-                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Nom Prénom"
-                                required="required" data-error="Name is required.">
+                            <input id="form_name" type="text" name="name" class="form-control mx-auto"
+                                placeholder="Nom Prénom" required="required" data-error="Name is required.">
                             <div class="form-control-border"></div>
                             <div class="help-block with-errors"></div>
                         </div>
 
                         <div class="form-group">
-                            <input id="form_email" type="email" name="email" class="form-control"
+                            <input id="form_email" type="email" name="email" class="form-control mx-auto"
                                 placeholder="Adresse mail" required="required" data-error="Valid email is required.">
                             <div class="form-control-border"></div>
                             <div class="help-block with-errors"></div>
@@ -418,12 +353,25 @@
                             <i class="form-control-icon pe-7s-comment"></i>
                             <div class="help-block with-errors"></div>
                         </div>
-                        <a href="mailto:maxblanck@outlook.fr"><button>Envoyer un mail</button></a>
+                        <a href="mailto:maxblanck@outlook.fr"><button class="btn btn-success my-4">Envoyer un
+                                mail</button></a>
                     </div>
                 </div>
             </div>
         </section>
     </div>
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-6">
+                    <p>&copy Handmade with &hearts; by Max Blanck</p>
+                </div>
+                <div class="col-6">
+                    <p><a href="" class="mention">Mentions légales</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
