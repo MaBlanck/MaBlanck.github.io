@@ -1,14 +1,15 @@
 :root {
-    --background-blue: #021C41;
+    --background-blue: #020810;
 }
 
 body {
     background-color: black;
 }
 .firstTitle {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 0.1em;
     font-size: 6em;
+    font-weight: 900;
     color: white;
     
 }
@@ -105,6 +106,9 @@ i {
     font-size: 1.2em;
     color: white
 }
+.harpyeTextModal, .calendarTextModal {
+    color: black;
+}
 
 
 
@@ -127,7 +131,7 @@ i {
 /*Parallax effect*/
 .parallax {
     /* The image used */
-    background-color: #020810e0;
+    background-color: #020810;
     min-height: 31.25em;
 }
 .parallaxResume {
