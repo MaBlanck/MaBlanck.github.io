@@ -19,7 +19,9 @@ body {
 .resume-grid {
     background-color: #03445E;
 }
-
+.skillsTitle{
+    text-decoration: underline;
+}
 .contact {
  background-color: #03445E;
 }
@@ -163,7 +165,7 @@ i {
     }
 @media only screen and (max-device-width: 760px) {
     .firstTitle {
-        letter-spacing: 0.1em;
+    letter-spacing: 0.1em;
     font-size: 4em;
     color: white;
     }
@@ -173,7 +175,7 @@ i {
 }
 @media only screen and (max-device-width: 500px) {
     .firstTitle {
-        letter-spacing: 0.1em;
+    letter-spacing: 0.1em;
     font-size: 4em;
     color: white;
     }
