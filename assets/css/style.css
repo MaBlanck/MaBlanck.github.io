@@ -5,6 +5,10 @@
 body {
     background-color: black;
 }
+.accessibility{
+    position: absolute;
+    left: -15000px;
+}
 .firstTitle {
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 0.1em;
